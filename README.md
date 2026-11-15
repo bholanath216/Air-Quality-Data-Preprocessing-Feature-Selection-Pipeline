@@ -1050,28 +1050,8 @@ air-quality-india-pipeline/
 ├── requirements.txt              # Project dependencies (pandas, numpy, scikit-learn, etc.)
 └── README.md                     # Comprehensive project documentation
 Essential Repository Components
-1. README.md (Project Documentation)
+README.md (Project Documentation)
 Your README.md should act as the master entry point for anyone inspecting your repository. It should include:
 	Project Title & Overview: A brief summary of the air quality prediction and feature selection pipeline.
 	Dataset Information: Details about the city_day.csv file (29,531 records, 16 features).
 	Key Steps Implemented From Scratch: Highlighting manual implementations of train-test split, normalization, standardization, and feature selection tests.
-	How to Run: Clear instructions on setting up the environment and executing the scripts/notebooks.
-2.requirements.txt
-List all required Python libraries with pinned versions to ensure reproducibility:
-Plaintext
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.2.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-scipy>=1.10.0
-3.	.gitignore
-Prevent cluttering your repository with local environment files or temporary caches by including:
-Plaintext
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.ipynb_checkpoints/
-.DS_Store
-
